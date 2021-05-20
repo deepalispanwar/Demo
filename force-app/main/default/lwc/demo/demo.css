@@ -1,0 +1,8 @@
+h1 {
+    font-size: xx-large;
+    color : blue;
+}
+c-demo-child{
+    display: block;
+    border: 2px solid red;
+}

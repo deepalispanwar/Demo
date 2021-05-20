@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Hello, Conditional Rendering" icon-name ="custom:custom14">
+        <lightning-input type='checkbox' label="It's Corona time!" onchange={handleChange}></lightning-input>
+        <template if:true= {areDetailsVisible}>
+            <p>Wear a Mask</p>
+            <img src="https://media1.giphy.com/media/JRsY1oIVA7IetTkKVO/source.gif">
+
+
+        </template>
+
+    </lightning-card>
+    
+</template>

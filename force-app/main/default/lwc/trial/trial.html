@@ -1,0 +1,26 @@
+<template>
+  <lightning-card title="HelloConditionalRendering" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+          <lightning-input type="checkbox" label="Show CEO of Google" onchange={handleChange}></lightning-input>
+         
+          <template if:true={areDetailsVisible}>
+            <div class="slds-box">
+             <div class="slds-grid slds-gutters">
+             <div class="slds-col slds-size_1-of-3">
+            <span>
+ 
+            <img src="https://content.fortune.com/wp-content/uploads/2015/10/gettyimages-490529570.jpg">
+            </span>
+            </div>
+        <div class="slds-col slds-size_2-of-3">
+ 
+         <p>Sundar Pichai</p>
+            </div>
+            </div>
+            </div>
+            <br>
+   
+          </template>
+      </div>
+  </lightning-card>
+</template>
